@@ -3,51 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang giới thiệu tương tác</title>
+    <title>Máy tính đơn giản</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Trang giới thiệu cá nhân</h1>
-        <p>Chào mừng bạn đến với trang của tôi!</p>
-    </header>
+    <div class="calculator">
+        <h1>Máy tính đơn giản</h1>
 
-    <nav>
-        <a href="#gioi-thieu">Giới thiệu</a>
-        <a href="#so-thich">Sở thích</a>
-        <a href="#lien-he">Liên hệ</a>
-    </nav>
+        <div id="display">0</div>
 
-    <main>
-        <section id="gioi-thieu">
-            <h2>Giới thiệu</h2>
-            <p>Xin chào! Tôi là một sinh viên đang học lập trình web.</p>
-            <p>Đây là trang giới thiệu cá nhân được tạo bằng HTML, CSS và JavaScript.</p>
+        <div class="buttons">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">/</button>
 
-            <p id="greeting"></p>
-            <button id="changeBg">Đổi màu nền</button>
-        </section>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">*</button>
 
-        <section id="so-thich">
-            <h2>Sở thích</h2>
-            <ul>
-                <li>Lập trình</li>
-                <li>Nghe nhạc</li>
-                <li>Xem phim</li>
-                <li>Chơi thể thao</li>
-            </ul>
-        </section>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">-</button>
 
-        <section id="lien-he">
-            <h2>Liên hệ</h2>
-            <p>Email: example@gmail.com</p>
-            <p>Điện thoại: 0123 456 789</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Trang giới thiệu cá nhân</p>
-    </footer>
+            <button class="number">0</button>
+            <button id="clear">Clear</button>
+            <button id="equals">=</button>
+            <button class="operator">+</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
