@@ -4,5 +4,18 @@ export const initialBooks = [
   { id: '3', title: 'Dế Mèn Phiêu Lưu Ký', author: 'Tô Hoài', genre: 'Văn học', year: 1941 },
   { id: '4', title: 'Số Đỏ', author: 'Vũ Trọng Phụng', genre: 'Văn học', year: 1936 },
   { id: '5', title: 'Lược Sử Loài Người', author: 'Yuval Noah Harari', genre: 'Lịch sử', year: 2014 },
-  { id: '6', title: 'Clean Code', author: 'Robert C. Martin', genre: 'Công nghệ', year: 2008 }
+  { id: '6', title: 'Clean Code', author: 'Robert C. Martin', genre: 'Công nghệ', year: 2008 },
+  
+];
+export const extraBooks = [
+  { id: '11', title: 'Thiết Kế Web Với HTML5 Và CSS3', author: 'Trần Văn D', genre: 'Công nghệ', year: 2021 },
+  { id: '12', title: 'Cấu Trúc Dữ Liệu Và Giải Thuật Python', author: 'Nguyễn Thị E', genre: 'Công nghệ', year: 2023 },
+  { id: '13', title: 'Nhập Môn Trí Tuệ Nhân Tạo', author: 'Lê Hoàng F', genre: 'Công nghệ', year: 2024 },
+  { id: '14', title: 'Mắt Biếc', author: 'Nguyễn Nhật Ánh', genre: 'Văn học', year: 1990 },
+  { id: '15', title: 'Chí Phèo', author: 'Nam Cao', genre: 'Văn học', year: 1941 },
+  { id: '16', title: 'Nỗi Buồn Chiến Tranh', author: 'Bảo Ninh', genre: 'Văn học', year: 1990 },
+  { id: '17', title: 'Đại Việt Sử Ký Toàn Thư', author: 'Ngô Sĩ Liên', genre: 'Lịch sử', year: 1993 },
+  { id: '18', title: 'Việt Nam Sử Lược', author: 'Trần Trọng Kim', genre: 'Lịch sử', year: 1920 },
+  { id: '19', title: 'Hồ Chí Minh - Một Cuộc Đời', author: 'William J. Duiker', genre: 'Lịch sử', year: 2000 },
+  { id: '20', title: 'Lập Trình Hướng Đối Tượng Vẫn Dễ', author: 'Đặng Văn G', genre: 'Công nghệ', year: 2022 }
 ];

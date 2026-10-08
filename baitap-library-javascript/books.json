@@ -8,5 +8,15 @@
   { "id": "7", "title": "Clean Code", "author": "Robert C. Martin", "genre": "Công nghệ", "year": 2008 },
   { "id": "8", "title": "Tắt Đèn", "author": "Ngô Tất Tố", "genre": "Văn học", "year": 1939 },
   { "id": "9", "title": "Súng, Vi Trùng Và Thép", "author": "Jared Diamond", "genre": "Lịch sử", "year": 1997 },
-  { "id": "10", "title": "Cấu Trúc Dữ Liệu Và Giải Thuật", "author": "Lê Văn C", "genre": "Công nghệ", "year": 2021 }
+  { "id": "10", "title": "Cấu Trúc Dữ Liệu Và Giải Thuật", "author": "Lê Văn C", "genre": "Công nghệ", "year": 2021 },
+  { "id": "11", "title": "Thiết Kế Web Với HTML5 Và CSS3", "author": "Trần Văn D", "genre": "Công nghệ", "year": 2021 },
+  { "id": "12", "title": "Cấu Trúc Dữ Liệu Và Giải Thuật Python", "author": "Nguyễn Thị E", "genre": "Công nghệ", "year": 2023 },
+  { "id": "13", "title": "Nhập Môn Trí Tuệ Nhân Tạo", "author": "Lê Hoàng F", "genre": "Công nghệ", "year": 2024 },
+  { "id": "14", "title": "Mắt Biếc", "author": "Nguyễn Nhật Ánh", "genre": "Văn học", "year": 1990 },
+  { "id": "15", "title": "Chí Phèo", "author": "Nam Cao", "genre": "Văn học", "year": 1941 },
+  { "id": "16", "title": "Nỗi Buồn Chiến Tranh", "author": "Bảo Ninh", "genre": "Văn học", "year": 1990 },
+  { "id": "17", "title": "Đại Việt Sử Ký Toàn Thư", "author": "Ngô Sĩ Liên", "genre": "Lịch sử", "year": 1993 },
+  { "id": "18", "title": "Việt Nam Sử Lược", "author": "Trần Trọng Kim", "genre": "Lịch sử", "year": 1920 },
+  { "id": "19", "title": "Hồ Chí Minh - Một Cuộc Đời", "author": "William J. Duiker", "genre": "Lịch sử", "year": 2000 },
+  { "id": "20", "title": "Lập Trình Hướng Đối Tượng Vẫn Dễ", "author": "Đặng Văn G", "genre": "Công nghệ", "year": 2022 }
 ]
