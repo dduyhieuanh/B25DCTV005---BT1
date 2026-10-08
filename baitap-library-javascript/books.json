@@ -1,0 +1,12 @@
+[
+  { "id": "1", "title": "Lập Trình JavaScript Nâng Cao", "author": "Nguyễn Văn A", "genre": "Công nghệ", "year": 2022 },
+  { "id": "2", "title": "Học ReactJS Trong 21 Ngày", "author": "Trần Thị B", "genre": "Công nghệ", "year": 2023 },
+  { "id": "3", "title": "Dế Mèn Phiêu Lưu Ký", "author": "Tô Hoài", "genre": "Văn học", "year": 1941 },
+  { "id": "4", "title": "Số Đỏ", "author": "Vũ Trọng Phụng", "genre": "Văn học", "year": 1936 },
+  { "id": "5", "title": "Lược Sử Loài Người", "author": "Yuval Noah Harari", "genre": "Lịch sử", "year": 2014 },
+  { "id": "6", "title": "Sapiens: Bội Ước Thời Gian", "author": "Yuval Noah Harari", "genre": "Lịch sử", "year": 2018 },
+  { "id": "7", "title": "Clean Code", "author": "Robert C. Martin", "genre": "Công nghệ", "year": 2008 },
+  { "id": "8", "title": "Tắt Đèn", "author": "Ngô Tất Tố", "genre": "Văn học", "year": 1939 },
+  { "id": "9", "title": "Súng, Vi Trùng Và Thép", "author": "Jared Diamond", "genre": "Lịch sử", "year": 1997 },
+  { "id": "10", "title": "Cấu Trúc Dữ Liệu Và Giải Thuật", "author": "Lê Văn C", "genre": "Công nghệ", "year": 2021 }
+]

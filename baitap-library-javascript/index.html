@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư viện Sách - JS Thuần</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Thư Viện Lớp Học</h1>
+    <div>Sách yêu thích: <span id="fav-count">0</span></div>
+  </header>
+
+  <main>
+    <!-- Thanh công cụ -->
+    <section class="toolbar">
+      <input type="text" id="search-input" placeholder="Tìm theo tên sách...">
+      <select id="genre-select">
+        <option value="">Tất cả thể loại</option>
+      </select>
+    </section>
+
+    <!-- Dòng trạng thái -->
+    <div id="status-bar">Đang tải dữ liệu...</div>
+
+    <!-- Lưới thẻ sách -->
+    <section id="book-grid" class="grid"></section>
+
+    <!-- Form thêm sách -->
+    <section class="form-container">
+      <h2>Thêm Sách Mới</h2>
+      <form id="add-book-form">
+        <div class="form-group">
+          <label>Tên sách:</label>
+          <input type="text" id="title" name="title">
+          <small class="error-msg" id="error-title"></small>
+        </div>
+        <div class="form-group">
+          <label>Tác giả:</label>
+          <input type="text" id="author" name="author">
+          <small class="error-msg" id="error-author"></small>
+        </div>
+        <div class="form-group">
+          <label>Thể loại:</label>
+          <select id="genre" name="genre">
+            <option value="">-- Chọn thể loại --</option>
+            <option value="Công nghệ">Công nghệ</option>
+            <option value="Văn học">Văn học</option>
+            <option value="Lịch sử">Lịch sử</option>
+          </select>
+          <small class="error-msg" id="error-genre"></small>
+        </div>
+        <div class="form-group">
+          <label>Năm xuất bản:</label>
+          <input type="number" id="year" name="year">
+          <small class="error-msg" id="error-year"></small>
+        </div>
+        <button type="submit">Thêm sách</button>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
